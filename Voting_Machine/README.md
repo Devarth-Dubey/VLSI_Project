@@ -19,7 +19,7 @@ The design is implemented in **Verilog** , and the primary goal is to demonstrat
 
 
 ## Introduction
-![Text Image 1](https://www.google.com/imgres?q=evm%20machine%20logo&imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-illustration%2Felectronic-voting-machine-evm-male-260nw-1948119313.jpg&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Findian-evm&docid=FalRrfTvpKoVQM&tbnid=t3usU-ieEpHgJM&vet=12ahUKEwiP76yA77GNAxXL1DgGHcL3FZ0QM3oECGYQAA..i&w=260&h=280&hcb=2&ved=2ahUKEwiP76yA77GNAxXL1DgGHcL3FZ0QM3oECGYQAA)
+![Text Image 1](https://www.canva.com/design/DAGmNY0U0AA/zh2tG8UmWX4rMsBNsRW-5g/view?utm_content=DAGmNY0U0AA&utm_campaign=designshare&utm_medium=link&utm_source=viewer)
 The **Control Unit** (CU) of the **EVM** is responsible for organising various functional components, ensuring that voting operations are securely carried out. The design involves:
 
 - **Voting data input** {voter selection from Ballot unit(which is considered as a 16:4 encoder), button presses on the CU itself}
