@@ -47,7 +47,7 @@ The control logic is implemented as a **synchronous FSM**.
 ## 🧠 FSM Diagram
 
 <p align="center">
-  <img src="Asm_Chart.png" width="700">
+  <img src="ASM_CHART.png" width="700">
 </p>
 ---
 ## ⭐ Special Features
