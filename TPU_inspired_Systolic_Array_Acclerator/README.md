@@ -217,9 +217,9 @@ The quantization unit converts accumulated INT32 values into INT8 output values.
 - Signed INT8 output.
 - Saturation to the INT8 range.
 
-\[
--128\leq Q_{out}\leq127
-\]
+$$
+-128 \leq Q_{out} \leq127
+$$
 
 This unit supports reduced-precision data representation for neural-network inference.
 
