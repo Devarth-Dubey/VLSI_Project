@@ -261,34 +261,34 @@ The activation mode is configurable through the control interface.
 
 The accelerator performs matrix multiplication:
 
-\[
-C=A\times B
-\]
+$$
+C = A \times B
+$$
+
 
 For matrices:
 
-\[
-A\in\mathbb{R}^{M\times K}
-\]
+$$
+A \in \mathbb{R}^{M \times K}
+$$
 
-\[
-B\in\mathbb{R}^{K\times N}
-\]
+$$
+B \in \mathbb{R}^{K \times N}
+$$
 
 The resulting matrix is:
 
-\[
-C\in\mathbb{R}^{M\times N}
-\]
+$$
+C \in \mathbb{R}^{M \times N}
+$$
 
 Each output element is calculated as:
 
-\[
-C_{ij}=\sum_{k=0}^{K-1}A_{ik}B_{kj}
-\]
+$$
+C_{ij} = \sum_{k=0}^{K-1} A_{ik} B_{kj}
+$$
 
-The systolic array executes this operation through parallel MAC computations across its processing elements.
-
+The systolic array executes this operation through parallel Multiply-Accumulate (MAC) computations across its processing elements.
 For matrices larger than the physical array dimensions, the architecture uses a tiled execution approach, allowing the computational array to process smaller matrix blocks.
 
 ---
