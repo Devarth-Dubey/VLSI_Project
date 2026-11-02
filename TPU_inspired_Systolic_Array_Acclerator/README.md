@@ -23,6 +23,9 @@ The initial architecture uses a 4×4 systolic array with INT8 operands and INT32
 ## System Architecture
 
 The accelerator consists of a computational datapath, local memory hierarchy, control logic, address generation, and output-processing units.
+<p float="center">
+  <img src="Screenshot 2026-11-01 224529.png" width="77%" />
+</p>
 
 ### Overall Block Diagram
 
@@ -112,6 +115,9 @@ Each PE communicates with its neighboring processing elements to enable synchron
 ### 2. Systolic Array
 
 The systolic array consists of a 2D grid of interconnected processing elements.
+<p float="center">
+  <img src="Screenshot 2026-10-30 164603.png" width="49%" />
+</p>
 
 **Current configuration: 4×4 (16 PEs).**
 
@@ -314,15 +320,40 @@ The verification environment uses simulation testbenches to evaluate:
 
 ### Simulation Results
 
-*Simulation waveforms, matrix multiplication results, and verification evidence will be added here.*
-
+The simulation result of the Systolic array is given below:
+<p float="center">
+  <img src="Screenshot 2026-10-30 114351.png" width="77%" height="50%"/>
+</p>
+<p float="center">
+  <img src="Screenshot 2026-10-30 115754.png" width="100%" height="200%" />
+</p>
+The simulation of the Systolic Matrix Operation Sequencer is:
+<p float="center">
+  <img src="Screenshot 2026-11-01 180806.png" width="77%" />
+</p>
+<p float="center">
+  <img src="Screenshot 2026-11-01 181120.png" width="100%" height="200% />
+</p>
+The simulation result for the top level integration core is:
+<p float="left">
+  <img src="Screenshot 2026-11-01 232524.png" width="49%" height="200%"/>
+  <img src="Screenshot 2026-11-01 232537.png" width="49%" />
+  <img src="Screenshot 2026-11-01 232547.png" width="49%" />
+  <img src="Screenshot 2026-11-01 232556.png" width="49%" />
+</p>
+<p float="center">
+  <img src="Screenshot 2026-11-01 232825.png" width="100%" height="250%" />
+</p>
+<p float="center">
+  <img src="Screenshot 2026-11-01 232858.png" width="100%" height="300%" />
+</p>
 ### FPGA Implementation Results
 
-*FPGA resource utilization, timing reports, operating frequency, and hardware implementation results will be added here.*
+*To be added.*
 
 ### Performance Evaluation
 
-*Latency, throughput, computational efficiency, and other performance measurements will be added here.*
+*To be added.*
 
 ---
 
@@ -367,8 +398,6 @@ This is an independent RTL implementation and is not an official Google TPU desi
 
 ---
 
-## Author
 
-**AI Accelerator Design and RTL Development**
 
 *Verilog | VLSI | Computer Architecture | AI Hardware Acceleration*
